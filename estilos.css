@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+.icono1::after{
+    font-family: 'Material Symbols Outlined';
+    content: 'diamond';
+
+}
+
+
+body{
+    background-color: #F0F0F0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido {
+    width: 328px;
+    height:662px ;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+@media  screen and (min-width: 329px) {
+    .menorBase { 
+        display: none;
+    }
+}
+
+
