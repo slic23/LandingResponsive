@@ -76,5 +76,11 @@ label {
 .contenido {
     margin: 0 auto;
 }
+.menu {
+    display: flex;
+}
+
+
+
 
 
