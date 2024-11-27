@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .icono1::after{
     font-family: 'Material Symbols Outlined';
     content: 'diamond';
@@ -78,9 +80,110 @@ label {
 }
 .menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    width: 100%;
+}
+
+.primer-menu {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+.primer-menu div {
+    padding: 0.5em;
+    width: 100%;
+    
+}
+
+.menu-dos {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    
+}
+
+.menu-dos h2 {
+    padding: 10px
+}
+
+.menuButon1 {
+    background-color: white;
+    color: black;
+
+}
+
+.menuButon2 {
+    background-color: black;
+    color: white;
+}
+
+.imgHeader {
+    width: 550px;
+    height: 580px;
+}
+
+.bigertext p {
+    font-family: "Orbitron", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-items: start;
+    margin: 0 30px;
+
+}
+
+.header-primercontenido {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.smalltext {
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+
 }
 
 
+input {
+    padding: 1em;
+    border: none;
+}
 
 
+.formu {
+    display: flex;
+    gap: 0;
+}
 
+.textoSPAN {
+    background-color: black;
+    color: white;
+    padding: 0.9em;
+}
+
+.imagenes {
+    padding-top: 100px;
+    align-self:end;
+    display: flex;
+    gap: 2em;
+    
+}
+
+.ordenador-mediano{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    padding-top: 100px;
+    
+}
